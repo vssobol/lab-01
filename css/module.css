@@ -3,27 +3,59 @@
 @media(max-width:480px){
 
     #a{
+        background: red;
+        line-height: 4.5em;
         width: 100%;
         height: 75px;
     }
     
     #b{
+        background: orangered;
+        line-height: 9.5em;
         width: 100%;
         height: 150px;
     }
+
+    #c{
+        background: orange;
+    }
+
+    #d{
+        background: yellow;
+    }
     
     #c, #d{
+        line-height: 8em;
         width: 100%;
         height: 125px;
     }
+
+    #e{
+        background: lime;
+    }
+
+    #f{
+        background: green;
+    }
+
+    #g{
+        background: darkblue;
+    }
+
+    #h{
+        background: darkcyan;
+    }
     
     #e, #f, #g, #h{
+        line-height: 15.5em;
         float: left;
         width: 50%;
         height: 250px;
     }
-    
+
     #i{
+        background: purple;
+        line-height: 5em;
         clear: both;
         width: 100%;
         height: 80px;
@@ -33,29 +65,61 @@
 @media(min-width:480px){
 
     #a{
+        background: purple;
+        line-height: 5.5em;
         width: 98vw;
         height: 10vh;
     }
 
     #b{
+        background: darkcyan;
+        line-height: 55em;
         float: left;
         width: 26vw;
         height: 90vh;
     }
 
+    #c{
+        background: darkblue;
+    }
+
+    #d{
+        background: green;
+    }
+
     #c, #d{
+        line-height: 17.5em;
         float: left;
         width: 36vw;
         height: 30vh;
     }
 
+    #e{
+        background: orangered;
+    }
+
+    #f{
+        background: orange;
+    }
+
+    #g{
+        background: yellow;
+    }
+
+    #h{
+        background: lime;
+    }
+
     #e, #f, #g, #h{
+        line-height: 27em;
         float: left;
         width: 18vw;
         height: 45vh;
     }
 
     #i{
+        background: red;
+        line-height: 9em;
         float: left;
         width: 72vw;
         height: 15vh;
