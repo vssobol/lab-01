@@ -1,6 +1,6 @@
 
 
-@media(max-width:480px){
+@media only screen and (max-width:481px){
 
     #a{
         background: red;
@@ -62,21 +62,23 @@
     }
 }
 
-@media(min-width:480px){
+@media only screen and (min-width:481px){
+
+    main{
+        max-width: 960px;
+    }
 
     #a{
         background: purple;
         line-height: 5.5em;
-        width: 98vw;
-        height: 10vh;
+        width: 99.9%;
     }
 
     #b{
         background: darkcyan;
-        line-height: 55em;
         float: left;
-        width: 26vw;
-        height: 90vh;
+        line-height: 55em;
+        width: 26%;
     }
 
     #c{
@@ -90,8 +92,7 @@
     #c, #d{
         line-height: 17.5em;
         float: left;
-        width: 36vw;
-        height: 30vh;
+        width: 37%;
     }
 
     #e{
@@ -113,18 +114,11 @@
     #e, #f, #g, #h{
         line-height: 27em;
         float: left;
-        width: 18vw;
-        height: 45vh;
+        width: 18.5%;
     }
 
     #i{
         background: red;
-        line-height: 9em;
-        float: left;
-        width: 72vw;
-        height: 15vh;
-        margin-bottom: 34px;
+        line-height: 10.5em;
+        width: 99.9%;
     }
-}
-
-
